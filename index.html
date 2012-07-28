@@ -4,6 +4,12 @@
         <title>Академия бокса</title>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
         <link rel="stylesheet" href="css/main.css" />
+        <link rel="stylesheet" href="css/jquery.thumbnailScroller.css" />
+        <!--[if lt IE 9]>
+            <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+        <script src="js/jquery-1.7.2.min.js"></script>
+        <script src="js/jquery-ui-1.8.13.custom.min.js"></script>
     </head>
     <body>
         <div class="wrapper clear">
@@ -37,6 +43,9 @@
                         <li><a href="#" title="Новости">Новости</a></li>
                         <li><a href="#" title="Контакты">Контакты</a></li>
                     </ul>
+                    <div class="page-image">
+                        <img src="images/page-images/home.png" alt="" height="349" width="968" />
+                    </div>
                 </nav>
                 <div class="columns clear">
                     <aside>
@@ -73,10 +82,40 @@
                         </div>
                     </aside>
                     <article>
-                        <h1 class="a-center">О клубе</h1>
-                        <p> Бокс – это не только контактный вид спорта и единоборства, прежде всего это топовый вид спорта. Самые ранние свидетельства подобных состязаний запечатлены ещё на шумерских, египетских и минойских рельефах. Турниры по кулачным боям, напоминающим бокс, проходили ещё в Древней Греции. По-настоящему бокс стал спортивным единоборством в 688 году до н. э., когда кулачные бои были впервые включены в программу античных Олимпийских игр. Современный бокс зародился в Англии в начале XVIII века. В некоторых странах существуют собственные разновидности бокса (сават во Франции, летхвей в Мьянме, муай-тай в Таиланде), поэтому часто используется термин «английский бокс». Ливанцы и этруски называли бокс пугилизмом.Первое изображение боя было сделано в шумерской пещере в третьем тысячелетии до н. э.</p>
-                        <p> Бокс – это не только контактный вид спорта и единоборства, прежде всего это топовый вид спорта. Самые ранние свидетельства подобных состязаний запечатлены ещё на шумерских, египетских и минойских рельефах. Турниры по кулачным боям, напоминающим бокс, проходили ещё в Древней Греции. По-настоящему бокс стал спортивным единоборством в 688 году до н. э., когда кулачные бои были впервые включены в программу античных Олимпийских игр. Современный бокс зародился в Англии в начале XVIII века. В некоторых странах существуют собственные разновидности бокса (сават во Франции, летхвей в Мьянме, муай-тай в Таиланде), поэтому часто используется термин «английский бокс». Ливанцы и этруски называли бокс пугилизмом.Первое изображение боя было сделано в шумерской пещере в третьем тысячелетии до н. э.</p>
+                        <h1 class="a-center">Добро пожаловать на сайт “Академия бокса”!</h1>
+                        <p>Спортивный клуб «Академия бокса» приглашает вас окунуться в невероятный мир спорта и приятного досуга. «Академия бокса» - это клуб для всех, кто хочет достичь своей цели или сделать свою мечту реальностью, испытать себя и обрести уверенность в себе. Это клуб для всех, кто любит бокс и стремится повысить качество своей жизни.</p>
+                        <p>Спортивный клуб «Академия бокса» приглашает на занятия боксом и кикбоксингом:</p>
+                        <ul>
+                            <li>Мужчин и женщин.</li>
+                            <li>Юношей и девушек.</li>
+                            <li>Детей от 10 до 13 лет.</li>
+                        </ul>
+                        <p>Формы занятий в нашем клубе:</p>
+                        <ul>
+                            <li>Индивидуальные тренировки.</li>
+                            <li>Индивидуальные занятия в мини-группе.</li>
+                            <li>Групповые тренировки в группах из 10-20 человек.</li>
+                        </ul>
                         <p class="a-right"><small><a href="#" title="Подробнее">Подробнее</a></small></p>
+                        <h2 class="a-center">Фотогалерея</h2>
+                        <div class="gallery">
+                            <div id="tS2" class="jThumbnailScroller">
+                                <div class="jTscrollerContainer">
+                                    <div class="jTscroller clear">
+                                        <a href="#"><img src="images/gallery-images/1.jpg" width="144" height="113" /></a>
+                                        <a href="#"><img src="images/gallery-images/2.jpg" width="144" height="113" /></a>
+                                        <a href="#"><img src="images/gallery-images/3.jpg" width="144" height="113" /></a>
+                                        <a href="#"><img src="images/gallery-images/4.jpg" width="144" height="113" /></a>
+                                        <a href="#"><img src="images/gallery-images/1.jpg" width="144" height="113" /></a>
+                                        <a href="#"><img src="images/gallery-images/2.jpg" width="144" height="113" /></a>
+                                        <a href="#"><img src="images/gallery-images/3.jpg" width="144" height="113" /></a>
+                                        <a href="#"><img src="images/gallery-images/4.jpg" width="144" height="113" /></a>
+                                    </div>
+                                </div>
+                                <a href="#" class="jTscrollerPrevButton"></a>
+                                <a href="#" class="jTscrollerNextButton"></a>
+                            </div>
+                        </div>
                     </article>
                 </div>
             </div>
@@ -85,5 +124,7 @@
             <div class="f-wrapper">
             </div>
         </footer>
+        <script src="js/jquery.thumbnailScroller.js"></script>
+        <script src="js/main.js"></script>
     </body>
 </html>
