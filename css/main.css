@@ -34,9 +34,11 @@ body {
 }
 .columns > aside {
     float: left;
-    margin: 0 0 0 18px;
-    width: 225px;
-    font-size: 11px
+    margin: 0 0 0 0px;
+	padding: 0 10px;
+    width: 215px;
+    font-size: 11px;
+	background: #ddd;
 }
 .columns > article {
     float: right;
