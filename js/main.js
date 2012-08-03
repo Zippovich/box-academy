@@ -13,4 +13,10 @@ $(function() {
         autoScrollingEasing: "easeInOutQuad",
         autoScrollingDelay: 500
     });
+    
+    $('.columns').each(function(index, item) {
+        if ($('aside', $(item)).height() < $('article', $(item)).height()) {
+            $('aside', $(item)).height($('article', $(item)).height());
+        }
+    });
 });
