@@ -181,7 +181,88 @@ footer {
     box-shadow: 0px -2px 2px 0px #000
 }
 .f-wrapper {
-    border-top: 4px solid #d5d7e3
+    border-top: 4px solid #d5d7e3    
+}
+.f-wrapper nav {
+    width: 976px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 23px 0 16px
+}
+.f-wrapper nav li {
+    display: inline-block;
+    border-left: 1px solid #fff;
+    padding: 0 10px;
+    line-height: 12px
+}
+.f-wrapper nav li:first-child {
+    border-left: none
+}
+.f-wrapper nav li a {
+    color: #fff;
+    text-decoration: none
+}
+.f-wrapper nav li a:hover, .f-wrapper nav li.active a {
+    color: #169df2
+}
+.f-lines {
+    background: #495d78;
+    border-top: 1px solid #020303;
+    height: 1px
+}
+.counters {
+    width: 976px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 23px 0 18px
+}
+.counters li {
+    padding: 0 2px 0 3px;
+    display: inline-block;
+    line-height: 1px
+}
+.f-copyright {
+    width: 976px;
+    margin: 0 auto;
+    text-align: center;;
+    font-size: 11px;
+    color: #fff
+}
+.f-copyright a {
+    color: #fff;
+    text-decoration: none
+}
+.f-copyright a:hover {
+    color: #169df2
+}
+.fw-wrapper {
+    width: 976px;
+    margin: auto;
+    height: 0;
+    position: relative
+}
+.fw-wrapper .social {
+    position: absolute;
+    top: 19px;
+    right: 14px
+}
+.fw-wrapper .social li {
+    float: left;
+    line-height: 1px;
+    margin: 0 0 0 5px
+}
+.fw-wrapper .social li a {
+    text-decoration: none
+}
+.fw-wrapper .f-phone {
+    position: absolute;
+    top: 72px;
+    left: 0;
+    width: 240px;
+    text-align: right;
+    font-size: 18px;
+    color: #fff;
+    line-height: 27px
 }
 
 /* Content */
